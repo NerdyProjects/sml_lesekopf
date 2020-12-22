@@ -2,6 +2,10 @@
 
 This project implements the SML infrared read/write interface from [Volkszaehler](https://wiki.volkszaehler.org/hardware/controllers/ir-schreib-lesekopf-ttl-ausgang) and adds generic RS422/RS485 capabilities.
 
+![](front.jpg)
+
+![](back.jpg)
+
 ## Building
 
 The PCB can be used in different operating modes. Each of those can be used independently, just add all the variants together you want to have
