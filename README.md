@@ -2,6 +2,7 @@
 
 This project implements the SML infrared read/write interface from [Volkszaehler](https://wiki.volkszaehler.org/hardware/controllers/ir-schreib-lesekopf-ttl-ausgang) and adds generic RS422/RS485 capabilities.
 
+The PCB is of 27mm diameter and meant to be used with a 27/16/5mm magnet.
 ![](front.jpg)
 
 ![](back.jpg)
