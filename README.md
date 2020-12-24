@@ -20,7 +20,7 @@ To read out smartmeters that send data themselves, you only need the infrared re
 * R2: 13k Ohms 0805 resistor
 * R4: 13k Ohms 0805 resistor
 * Q3: Any SOT23 NPN transistor, e.g. BC817
-* Q2: SFH309 infrared phototransistor (860nm)
+* Q2: SFH309 FA infrared phototransistor (860nm). If in doubt, take the -4 version.
 * U2: 74LVC1G17 schmitt trigger buffer (can be omitted when the device has schmitt trigger inputs and you use short cables; bridge pins 2 and 4 in that case)
 
 This outputs the received signal as a TTL signal on the TX pin. Feel free to use any supply voltage between 2 and 5.5V, your output signal will have the same voltage levels.
@@ -29,7 +29,7 @@ This outputs the received signal as a TTL signal on the TX pin. Feel free to use
 Some smartmeters require a signal sent to them to start transmitting data, so you need transmission capabilities:
 * C2: 1µF 0805 ceramic capacitor
 * R1: 180 Ohms 0805 resistor
-* D1: SFH487 or any other ~860 nm infrared LED
+* D1: SFH487 or any other ~860 nm infrared LED with a viewing angle of 30..60 degrees (e.g. Reichelt L-7104SF4BT KB)
 * Q1: Any SOT23 PNP transistor, e.g. BC807
 * R3: 13k Ohms 0805 resisotr
 * U1: 74LVC1G17 schmitt trigger buffer (can be omitted when you use short cables, bridge pins 2 and 4 in that case)
