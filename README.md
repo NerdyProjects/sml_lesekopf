@@ -57,3 +57,6 @@ Change both solder jumpers JP1 and JP2 on the top side of the PCB.
 By changing the solder jumper JP3 (on the back side of the PCB), the half duplex RS485 transceiver U3 is put into receive mode.
 Placing the components D2, C3 and U3 allows the PCB to be used as a TTL to RS485 (receive only) interface.
 Input pin "RX/J3/DI" of the TTL side is then used as the TTL TX pin towards a computer or another device.
+
+## Case
+In the 3d folder, there is a printable case where you can put the magnet and the PCB in. The PCBs might fight very tightly, I suggest printing it at 102% scale.
